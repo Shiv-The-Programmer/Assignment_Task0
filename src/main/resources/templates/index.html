@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Add User</title>
+</head>
+<body>
+<h1>Add New User</h1>
+<form action="#" th:action="@{/users}" th:object="${user}" method="post">
+    <label for="username">Username:</label>
+    <input type="text" id="username" th:field="*{username}" />
+    <label for="profile">Profile:</label>
+    <input type="text" id="profile" th:field="*{profile}" />
+    <button type="submit">Submit</button>
+</form>
+<div>
+    <a href="/show_users">Show Users</a>
+    <a href="/delete">Delete User</a>
+</div>
+</body>
+</html>

@@ -1,0 +1,5 @@
+CREATE TABLE USERS (
+    id INT AUTO_INCREMENT PRIMARY KEY,
+    username VARCHAR(255),
+    profile VARCHAR(255)
+);
