@@ -1,7 +1,5 @@
 # Assignment_Task0
 
-# Assignment_0
-
 This is a simple Spring Boot project that demonstrates basic CRUD operations using H2 Database and Thymeleaf for the frontend.
 
 ## Features
